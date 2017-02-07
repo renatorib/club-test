@@ -1,6 +1,6 @@
 module.exports = {
   babelrc: false,
-  cacheDirectory: true,
+  cacheDirectory: false,
   presets: [
     require.resolve('babel-preset-es2016'),
     require.resolve('babel-preset-stage-0'),
