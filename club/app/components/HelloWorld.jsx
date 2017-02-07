@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default () => (
-  <h1>Hello World from Club</h1>
+  <h1>Hello World from club</h1>
 );
