@@ -1,0 +1,14 @@
+{
+  "name": "using-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/club/bin/club.js start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2"
+  }
+}
