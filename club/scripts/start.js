@@ -9,6 +9,7 @@ const runDevServer = () => {
   const compiler = webpack(config);
 
   server.use(require('webpack-dev-middleware')(compiler, {
+    hot: true,
     publicPath: config.output.publicPath
   }));
 

@@ -6,6 +6,7 @@ const { app, own } = require('./paths');
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
+    'react-hot-loader/patch',
     'webpack-hot-middleware/client',
     own('app/index.js')
   ],
@@ -33,5 +34,3 @@ module.exports = {
     modules: [app('app'), own('app'), app('node_modules'), own('node_modules')]
   }
 };
-
-console.log(module.exports.resolve.modules);
